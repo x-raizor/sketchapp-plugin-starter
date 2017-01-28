@@ -1,0 +1,26 @@
+{
+  "name" : "Sample",
+  "description" : "Sketch App plugin Sample",
+  "author" : "Andrew Shapiro",
+  "authorEmail" : "andrew@ashapiro.ru",
+  "homepage": "https://github.com/x-raizor/sketchapp-plugin-starter",
+  "identifier" : "com.example.sketch.sample-plugins",
+  "version" : "1.0",
+  "compatibleVersion": 4,
+
+  "commands": [
+    {
+      "name": "Sample plugin",
+      "identifier": "sample",
+      "shortcut": "cmd ctrl s",
+      "script": "Sample.js"
+    }
+  ],
+  "menu": {
+    "isRoot": true,
+    "items": [
+      "sample"
+    ]
+  }
+  
+}
